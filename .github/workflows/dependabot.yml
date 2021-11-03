@@ -9,7 +9,7 @@ jobs:
   run-npx-my-precious:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.4.0
         with:
           ref: ${{ github.head_ref }}
       - name: npx my-precious and build archived-packages
